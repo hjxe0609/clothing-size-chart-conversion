@@ -50,7 +50,12 @@ body{margin:100px;}
         localStorage.setItem('display','cm');
       })
     })
-
+    //table change color
+    $(".stable_cov td").on({
+        mouseenter: function(){ $(this).addClass('active').siblings('td:nth-child(1)').addClass('active');
+        },mouseleave: function(){ $(this).removeClass('active').siblings().removeClass('active');
+        }
+    });
     //nation size storage
     sizeNation = localStorage.getItem('sizeNation');
     $('.size_cvn li[data-na="'+sizeNation+'"]').click();
