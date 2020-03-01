@@ -15,6 +15,6 @@ Because the size specifications of clothes in different countries are different,
 3. Simple css layout
 4. Use localStorage to store user behaviors, so that users can keep the same data when browsing another pages which use this widget.
 ## sponsor
-### PayPal: hjxe0609@gmail.com
+### PayPal: https://ko-fi.com/kenyo01
 ### Alipay:
 ![avatar](https://res.cloudinary.com/delehpjqm/image/upload/v1578395326/paypal/alipay/alipay.jpg)
